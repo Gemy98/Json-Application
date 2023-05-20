@@ -8,7 +8,7 @@ public class Person {
 	
 	private int age ; 
 	
-	private Phone phones ;
+	private Phone phone ;
 
 	public Person() {
 		super();
@@ -38,12 +38,12 @@ public class Person {
 		this.age = age;
 	}
 
-	public Phone getPhones() {
-		return phones;
+	public Phone getPhone() {
+		return phone;
 	}
 
-	public void setPhones(Phone phones) {
-		this.phones = phones;
+	public void setPhone(Phone phone) {
+		this.phone = phone;
 	} 
 	
 }

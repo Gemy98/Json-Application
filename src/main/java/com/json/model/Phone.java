@@ -5,10 +5,13 @@ public class Phone {
 	private String Ph1 ;
 
 	private String code ;
+	
 
 	public Phone() {
 		super();
 	}
+
+	
 
 	public String getPh1() {
 		return Ph1;
